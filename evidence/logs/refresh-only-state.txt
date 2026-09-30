@@ -1,0 +1,87 @@
+{
+  "version": 4,
+  "terraform_version": "1.16.3",
+  "serial": 11,
+  "lineage": "27004437-7671-ad23-a6f6-ecf02cf84146",
+  "outputs": {
+    "managed_memberships": {
+      "value": {
+        "hofang42-xbrain": {
+          "id": "xbrain-org-poc:hofang42-xbrain",
+          "role": "admin"
+        }
+      },
+      "type": [
+        "object",
+        {
+          "hofang42-xbrain": [
+            "object",
+            {
+              "id": "string",
+              "role": "string"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "github_membership",
+      "name": "members",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "instances": [
+        {
+          "index_key": "hofang42-xbrain",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"e9b9f498fcbf386a4875da6fe688d929ed2e751b1215f4aecfd9c82aac6f90d0\"",
+            "id": "xbrain-org-poc:hofang42-xbrain",
+            "role": "admin",
+            "username": "hofang42-xbrain"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        }
+      ]
+    }
+  ],
+  "check_results": [
+    {
+      "object_kind": "var",
+      "config_addr": "var.organization",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "var.organization",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "var.github_api_url",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "var.github_api_url",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "var.members",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "var.members",
+          "status": "pass"
+        }
+      ]
+    }
+  ]
+}

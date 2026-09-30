@@ -1,0 +1,13 @@
+github_membership.members["hofang42-xbrain"]: Creating...
+github_membership.members["hofang42-xbrain"]: Creation complete after 1s [id=xbrain-org-poc:hofang42-xbrain]
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+managed_memberships = {
+  "hofang42-xbrain" = {
+    "id" = "xbrain-org-poc:hofang42-xbrain"
+    "role" = "member"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "organization": "REPLACE_WITH_APPROVED_ORG",
+  "github_api_url": "https://api.github.com/",
+  "members": {
+    "replace-with-approved-test-user": "member"
+  }
+}

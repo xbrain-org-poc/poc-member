@@ -1,0 +1,2 @@
+Removed github_membership.members["hofang42-xbrain"]
+Successfully removed 1 resource instance(s).

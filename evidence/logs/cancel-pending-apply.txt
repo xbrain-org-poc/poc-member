@@ -1,0 +1,8 @@
+github_membership.members["hofang42-xbrain"]: Destroying... [id=xbrain-org-poc:hofang42-xbrain]
+github_membership.members["hofang42-xbrain"]: Destruction complete after 1s
+
+Apply complete! Resources: 0 added, 0 changed, 1 destroyed.
+
+Outputs:
+
+managed_memberships = {}

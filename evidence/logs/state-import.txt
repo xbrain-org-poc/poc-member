@@ -1,0 +1,9 @@
+github_membership.members["hofang42-xbrain"]: Importing from ID "xbrain-org-poc:hofang42-xbrain"...
+github_membership.members["hofang42-xbrain"]: Import prepared!
+  Prepared github_membership for import
+github_membership.members["hofang42-xbrain"]: Refreshing state... [id=xbrain-org-poc:hofang42-xbrain]
+
+Import successful!
+
+The resources that were imported are shown above. These resources are now in
+your Terraform state and will henceforth be managed by Terraform.

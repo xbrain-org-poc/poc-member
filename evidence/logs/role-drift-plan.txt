@@ -1,0 +1,24 @@
+github_membership.members["hofang42-xbrain"]: Refreshing state... [id=xbrain-org-poc:hofang42-xbrain]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  ~ update in-place
+
+Terraform will perform the following actions:
+
+  # github_membership.members["hofang42-xbrain"] will be updated in-place
+  ~ resource "github_membership" "members" {
+        id                   = "xbrain-org-poc:hofang42-xbrain"
+      ~ role                 = "admin" -> "member"
+        # (3 unchanged attributes hidden)
+    }
+
+Plan: 0 to add, 1 to change, 0 to destroy.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Saved the plan to:
+/mnt/d/xbrain/poc/evidence/20260930T090709466546Z-roles-and-drift/04-external-role-drift/change.tfplan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "/mnt/d/xbrain/poc/evidence/20260930T090709466546Z-roles-and-drift/04-external-role-drift/change.tfplan"

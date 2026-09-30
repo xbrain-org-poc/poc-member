@@ -1,0 +1,13 @@
+github_membership.members["hofang42-xbrain"]: Modifying... [id=xbrain-org-poc:hofang42-xbrain]
+github_membership.members["hofang42-xbrain"]: Modifications complete after 1s [id=xbrain-org-poc:hofang42-xbrain]
+
+Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
+
+Outputs:
+
+managed_memberships = {
+  "hofang42-xbrain" = {
+    "id" = "xbrain-org-poc:hofang42-xbrain"
+    "role" = "member"
+  }
+}

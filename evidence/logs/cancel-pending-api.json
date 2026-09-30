@@ -1,0 +1,18 @@
+{
+  "time_utc": "2026-09-30T09:02:45.970227+00:00",
+  "organization": "xbrain-org-poc",
+  "api_url": "https://api.github.com/",
+  "username": "hofang42-xbrain",
+  "membership_http_status": 404,
+  "state": "absent",
+  "role": null,
+  "active_member_list_match": false,
+  "pending_invitations": [],
+  "checks": {
+    "state_matches": true,
+    "no_pending_invitation": true,
+    "not_in_member_list": true,
+    "membership_returns_404": true
+  },
+  "passed": true
+}

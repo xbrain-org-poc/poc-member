@@ -2,27 +2,21 @@
 *.tfstate
 *.tfstate.*
 *.tfplan
+tfplan
 *.tfvars
 *.tfvars.json
+!*.example
 .env
 .env.*
 *.pem
 crash.log
 crash.*.log
-evidence/
 __pycache__/
 .browser-poc/
 deliverables/
 # Keep .terraform.lock.hcl in version control.
-terraform.tfvars.json
-!terraform.tfvars.json.example
-!evidence/
-evidence/*
-!evidence/README.md
-!evidence/logs/
-evidence/logs/*
-!evidence/logs/*.txt
-!evidence/logs/*.json
-!evidence/screenshots/
-evidence/screenshots/*
-!evidence/screenshots/*.png
+# Evidence runs are local; only the curated README, logs and screenshots are committed.
+live/**/evidence/*
+!live/**/evidence/README.md
+!live/**/evidence/logs/
+!live/**/evidence/screenshots/
